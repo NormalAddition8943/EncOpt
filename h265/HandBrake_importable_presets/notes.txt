@@ -1,0 +1,36 @@
+Workflow:
+
+If you have a classic black & white (monochrome) film:
+ - Use the "fast x265, black and white film" preset.
+ There is nothing more needed.
+
+
+If you have a modern, low-noise/low-grain (clean) digital colour film:
+
+ - Run a couple 60-second preset encodings with the "fast x265, clean source" preset.
+   Choose challenging chapters if possible. These might be action scenes, have
+   fine detail (grass, trees, etc), or be dark scenes with some film grain or noise.
+   (We're trying to stress the encoder with some worst-case content).
+
+ - If resulting previews are in the mid 20 MB range up to 30 MB and look good, then you're done!
+   Start the encode or add it to your queue.
+
+ - If previews' file size is in the low 20 MB range (or even lower) and/or the results
+   look too soft or lack fine/crisp detail, then turn down the CRF slider to 17. Try
+   the previews again to confirm they're looking better (at this point, you should be done).
+
+
+If you have older movies that were shot on film or early digital (with grain or noise):
+
+ - The above "fast x265, clean source" preset likely produced 60-second previews
+   larger than 30 MB. So we need to use a grain preset.
+
+ - Select the extra light grain preset and retry the previews and re-assess the filesize.
+   If needed, continue trying strong grain presets until filesize is in the mid 20 MB to
+   30 MB range.
+
+---
+
+Thanks to Reddit members u/Good_Honest_Jay and u/tomolatov for testing and providing
+feedback to help optimize these presets!
+
