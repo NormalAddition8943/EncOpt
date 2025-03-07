@@ -95,7 +95,7 @@
       "VideoTune": "ssim",
       "VideoProfile": "auto",
       "VideoLevel": "auto",
-      "VideoOptionExtra": "nr-intra=125:nr-inter=500::vbv-maxrate=16000:vbv-bufsize=32000:aq-mode=4:ctu=32:rskip=2:rskip-edge-threshold=5:dynamic-refine:refine-intra=4:ref=6:deblock=-2,-1:rect:amp:limit-modes:tu-inter-depth=4:tu-intra-depth=4:early-skip:sao:limit-sao:selective-sao=4:bframes=16:b-adapt=0:keyint=360:rc-lookahead=17:no-strong-intra-smoothing:rdoq-level=2:psy-rd=4:psy-rdoq=15:tskip:cu-lossless:ssim-rd:hdr10-opt:profile=main10:level-idc=51:no-high-tier:no-allow-non-conformance",
+      "VideoOptionExtra": "nr-intra=125:nr-inter=500::vbv-maxrate=16000:vbv-bufsize=32000:aq-mode=4:ctu=32:rskip=2:rskip-edge-threshold=5:dynamic-refine:refine-intra=4:ref=6:deblock=-2,-1:rect:amp:limit-modes:tu-inter-depth=4:tu-intra-depth=4:early-skip:sao:limit-sao:selective-sao=4:bframes=16:b-adapt=0:keyint=360:rc-lookahead=17:no-strong-intra-smoothing:rdoq-level=2:psy-rd=4:psy-rdoq=15:tskip:cu-lossless:ssim-rd:hdr10-opt:level-idc=51:no-high-tier:no-allow-non-conformance",
       "VideoQualityType": 2,
       "VideoQualitySlider": 19,
       "VideoMultiPass": false,
