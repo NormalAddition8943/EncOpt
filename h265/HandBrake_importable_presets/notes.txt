@@ -8,13 +8,16 @@ areas and averaging some of the grain away temporally.
 
 If you have a modern, low-noise/low-grain (clean) digital colour film, use the
 "fast x265, clean source" preset. The default CRF of 16.5 should produce good
-results without blowing up bitrate. For extremely detailed and visually
-complex movies (for example: Avatar, Way of the Water) consider lowering the
-CRF to 18 and running a couple previews.
+results with relatively low bitrate. For extremely detailed and visually
+complex movies (for example: Avatar: Way of the Water) consider relaxing the
+CRF to 18 and running a couple previews and confirm bitrate is acceptable.
 
 If you have content from the 1950 through early 2000s recorded on grainy film
 or early high-ISO digital cameras, use the "fast x265, grainy/noisy source".
-The defaults should work well enough.
+Run a couple previews as usual and check the resulting bitrate in the Handbrake
+log. The default should be good for pretty severe grain (like in Starship Troopers).
+If the preview bitrate looks on the low side, consider turning down the CRF to 18
+or 17.
 
 ---
 
