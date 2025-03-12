@@ -95,7 +95,7 @@
       "VideoTune": "ssim",
       "VideoProfile": "auto",
       "VideoLevel": "auto",
-      "VideoOptionExtra": "nr-intra=50:nr-inter=2000:amp:b-adapt=0:bframes=16:cbqpoffs=12:chromaloc=0:crqpoffs=12:ctu=32:cu-lossless:deblock=6,1:dynamic-refine:early-skip:hme-search=umh,umh,star:hme-range=25,25,26:keyint=360:lowpass-dct:max-merge=5:limit-modes:limit-sao:no-b-intra:no-strong-intra-smoothing:qcomp=0.5:qpmax=32:rc-grain:rc-lookahead=17:rect:ref=5:refine-intra=4:rskip=2:rskip-edge-threshold=3:sao:selective-sao=4:ssim-rd:subme=3:tskip:tu-inter-depth=4:tu-intra-depth=4:vbv-bufsize=12000:vbv-maxrate=6000:no-weightb:hevc-aq:aq-mode=4:aq-strength=0.1:psy-rd=0.1:rdoq-level=0:psy-rdoq=0:level-idc=4:no-high-tier:no-allow-non-conformance:frame-threads=2",
+      "VideoOptionExtra": "nr-intra=50:nr-inter=2000:amp:b-adapt=0:bframes=16:cbqpoffs=12:chromaloc=0:crqpoffs=12:ctu=32:cu-lossless:deblock=6,1:dynamic-refine:early-skip:hme-search=umh,umh,star:hme-range=25,25,26:keyint=360:lowpass-dct:max-merge=5:limit-modes:limit-sao:no-b-intra:no-strong-intra-smoothing:qcomp=0.5:qpmax=32:rc-grain:rc-lookahead=17:rect:ref=5:refine-intra=4:rskip=2:rskip-edge-threshold=3:sao:selective-sao=4:ssim-rd:subme=3:tskip:tu-inter-depth=4:tu-intra-depth=4:no-weightb:hevc-aq:aq-mode=4:aq-strength=0.1:psy-rd=0.1:rdoq-level=0:psy-rdoq=0:level-idc=51:no-high-tier:no-allow-non-conformance:frame-threads=2",
       "VideoQualityType": 2,
       "VideoQualitySlider": 18,
       "VideoMultiPass": false,
