@@ -1,13 +1,20 @@
 Workflow:
 
 If you have a classic black & white (monochrome) film, use the
-"fast x265, black and white film" preset.
+"fast x265, black and white film" preset. Try a couple 30 second previews
+and check the quality. The default CRF of 18 holds onto quite a bit
+of detail in faces and textures, while saving bitrate in low complexity
+areas and averaging some of the grain away temporally.
 
 If you have a modern, low-noise/low-grain (clean) digital colour film, use the
-"fast x265, clean source" preset.
+"fast x265, clean source" preset. The default CRF of 16.5 should produce good
+results without blowing up bitrate. For extremely detailed and visually
+complex movies (for example: Avatar, Way of the Water) consider lowering the
+CRF to 18 and running a couple previews.
 
-If you have content from the 1950 through early 200s recorded on grainy film
-or high-ISO digital sensor, use the "fast x265, grainy/noisy source"
+If you have content from the 1950 through early 2000s recorded on grainy film
+or early high-ISO digital cameras, use the "fast x265, grainy/noisy source".
+The defaults should work well enough.
 
 ---
 
