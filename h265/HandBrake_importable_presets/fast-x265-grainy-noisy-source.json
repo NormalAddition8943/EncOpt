@@ -9,7 +9,7 @@
       ],
       "AudioList": [
         {
-          "AudioBitrate": 80,
+          "AudioBitrate": 96,
           "AudioCompressionLevel": 0,
           "AudioEncoder": "opus",
           "AudioMixdown": "stereo",
@@ -32,10 +32,10 @@
       "Optimize": true,
       "Mp4iPodCompatible": false,
       "PictureCropMode": 0,
-      "PictureBottomCrop": 0,
+      "PictureBottomCrop": 276,
       "PictureLeftCrop": 0,
       "PictureRightCrop": 0,
-      "PictureTopCrop": 0,
+      "PictureTopCrop": 276,
       "PictureDARWidth": 1600,
       "PictureDeblockPreset": "off",
       "PictureDeblockTune": "medium",
