@@ -3,16 +3,16 @@
     {
       "AlignAVStart": false,
       "AudioCopyMask": [],
-      "AudioEncoderFallback": "none",
+      "AudioEncoderFallback": "av_aac",
       "AudioLanguageList": [
         "eng"
       ],
       "AudioList": [
         {
-          "AudioBitrate": 96,
+          "AudioBitrate": 128,
           "AudioCompressionLevel": 0,
           "AudioEncoder": "opus",
-          "AudioMixdown": "stereo",
+          "AudioMixdown": "5point1",
           "AudioNormalizeMixLevel": false,
           "AudioSamplerate": "48",
           "AudioTrackQualityEnable": false,
@@ -32,10 +32,10 @@
       "Optimize": true,
       "Mp4iPodCompatible": false,
       "PictureCropMode": 0,
-      "PictureBottomCrop": 0,
+      "PictureBottomCrop": 20,
       "PictureLeftCrop": 0,
       "PictureRightCrop": 0,
-      "PictureTopCrop": 0,
+      "PictureTopCrop": 20,
       "PictureDARWidth": 0,
       "PictureDeblockPreset": "off",
       "PictureDeblockTune": "medium",
